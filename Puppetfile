@@ -25,6 +25,9 @@ mod 'ssh',
 mod 'ntp'
     :git => 'https://github.com/anashikkar/puppet-ntp.git',
     :ref => 'master'
+mod 'profile',
+    :git => 'https://github.com/anashikkar/puppet-profile.git',
+    :ref => 'master'
 
 mod 'ntp'
     :git => 'git@github.com:anashikkar/puppet-nginx.git',
